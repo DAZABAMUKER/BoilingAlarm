@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03350A9E2B844269000FE2FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03350A9D2B844269000FE2FE /* Preview Assets.xcassets */; };
+		03350AA12B844269000FE2FE /* Boiling Alarm Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 03350A942B844268000FE2FE /* Boiling Alarm Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03350AA92B844B6D000FE2FE /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03350AA82B844B6D000FE2FE /* NotificationView.swift */; };
+		03350AAA2B844F0B000FE2FE /* Boiling_alarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BDA5472B7F794200C6C012 /* Boiling_alarmApp.swift */; };
+		03350AAF2B845117000FE2FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03350AAE2B845117000FE2FE /* ContentView.swift */; };
+		03350AB22B8461F2000FE2FE /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03350AB12B8461F2000FE2FE /* NotificationHandler.swift */; };
+		03350AB32B84723E000FE2FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BDA54B2B7F794300C6C012 /* Assets.xcassets */; };
+		03350AB52B847EE7000FE2FE /* WCmodeliPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03350AB42B847EE7000FE2FE /* WCmodeliPhone.swift */; };
+		03350AB72B847F32000FE2FE /* WCmodelWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03350AB62B847F32000FE2FE /* WCmodelWatch.swift */; };
+		03BDA5482B7F794200C6C012 /* Boiling_alarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BDA5472B7F794200C6C012 /* Boiling_alarmApp.swift */; };
+		03BDA54A2B7F794200C6C012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BDA5492B7F794200C6C012 /* ContentView.swift */; };
+		03BDA54C2B7F794300C6C012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BDA54B2B7F794300C6C012 /* Assets.xcassets */; };
+		03BDA54F2B7F794300C6C012 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BDA54E2B7F794300C6C012 /* Preview Assets.xcassets */; };
+		03BDA5562B7F795800C6C012 /* BoilingML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 03BDA5552B7F795800C6C012 /* BoilingML.mlmodel */; };
+		03BDA5582B7F973F00C6C012 /* RecordingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BDA5572B7F973F00C6C012 /* RecordingManager.swift */; };
+		03BDA55A2B7FA47200C6C012 /* BoilManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BDA5592B7FA47200C6C012 /* BoilManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03350A9F2B844269000FE2FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BDA53C2B7F794200C6C012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03350A932B844268000FE2FE;
+			remoteInfo = "Boiling Alarm Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03350AA52B844269000FE2FE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				03350AA12B844269000FE2FE /* Boiling Alarm Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03350A652B843037000FE2FE /* Boiling-alarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Boiling-alarm-Info.plist"; sourceTree = SOURCE_ROOT; };
+		03350A942B844268000FE2FE /* Boiling Alarm Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boiling Alarm Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03350A9D2B844269000FE2FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03350AA82B844B6D000FE2FE /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		03350AAE2B845117000FE2FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03350AB02B845BA3000FE2FE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		03350AB12B8461F2000FE2FE /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		03350AB42B847EE7000FE2FE /* WCmodeliPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCmodeliPhone.swift; sourceTree = "<group>"; };
+		03350AB62B847F32000FE2FE /* WCmodelWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCmodelWatch.swift; sourceTree = "<group>"; };
+		03BDA5442B7F794200C6C012 /* Boiling alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boiling alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BDA5472B7F794200C6C012 /* Boiling_alarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boiling_alarmApp.swift; sourceTree = "<group>"; };
+		03BDA5492B7F794200C6C012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03BDA54B2B7F794300C6C012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03BDA54E2B7F794300C6C012 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03BDA5552B7F795800C6C012 /* BoilingML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BoilingML.mlmodel; sourceTree = "<group>"; };
+		03BDA5572B7F973F00C6C012 /* RecordingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingManager.swift; sourceTree = "<group>"; };
+		03BDA5592B7FA47200C6C012 /* BoilManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03350A912B844268000FE2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BDA5412B7F794200C6C012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03350A952B844268000FE2FE /* Boiling Alarm Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				03350AA82B844B6D000FE2FE /* NotificationView.swift */,
+				03350AB62B847F32000FE2FE /* WCmodelWatch.swift */,
+				03350AAE2B845117000FE2FE /* ContentView.swift */,
+				03350AB02B845BA3000FE2FE /* PushNotificationPayload.apns */,
+				03350A9C2B844269000FE2FE /* Preview Content */,
+			);
+			path = "Boiling Alarm Watch App";
+			sourceTree = "<group>";
+		};
+		03350A9C2B844269000FE2FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03350A9D2B844269000FE2FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03BDA53B2B7F794200C6C012 = {
+			isa = PBXGroup;
+			children = (
+				03BDA5462B7F794200C6C012 /* Boiling alarm */,
+				03350A952B844268000FE2FE /* Boiling Alarm Watch App */,
+				03BDA5452B7F794200C6C012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03BDA5452B7F794200C6C012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03BDA5442B7F794200C6C012 /* Boiling alarm.app */,
+				03350A942B844268000FE2FE /* Boiling Alarm Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03BDA5462B7F794200C6C012 /* Boiling alarm */ = {
+			isa = PBXGroup;
+			children = (
+				03350A652B843037000FE2FE /* Boiling-alarm-Info.plist */,
+				03BDA5472B7F794200C6C012 /* Boiling_alarmApp.swift */,
+				03BDA5572B7F973F00C6C012 /* RecordingManager.swift */,
+				03350AB12B8461F2000FE2FE /* NotificationHandler.swift */,
+				03BDA5592B7FA47200C6C012 /* BoilManager.swift */,
+				03BDA5492B7F794200C6C012 /* ContentView.swift */,
+				03350AB42B847EE7000FE2FE /* WCmodeliPhone.swift */,
+				03BDA54B2B7F794300C6C012 /* Assets.xcassets */,
+				03BDA5552B7F795800C6C012 /* BoilingML.mlmodel */,
+				03BDA54D2B7F794300C6C012 /* Preview Content */,
+			);
+			path = "Boiling alarm";
+			sourceTree = "<group>";
+		};
+		03BDA54D2B7F794300C6C012 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03BDA54E2B7F794300C6C012 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03350A932B844268000FE2FE /* Boiling Alarm Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03350AA22B844269000FE2FE /* Build configuration list for PBXNativeTarget "Boiling Alarm Watch App" */;
+			buildPhases = (
+				03350A902B844268000FE2FE /* Sources */,
+				03350A912B844268000FE2FE /* Frameworks */,
+				03350A922B844268000FE2FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boiling Alarm Watch App";
+			productName = "Boiling Alarm Watch App";
+			productReference = 03350A942B844268000FE2FE /* Boiling Alarm Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03BDA5432B7F794200C6C012 /* Boiling alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BDA5522B7F794300C6C012 /* Build configuration list for PBXNativeTarget "Boiling alarm" */;
+			buildPhases = (
+				03BDA5402B7F794200C6C012 /* Sources */,
+				03BDA5412B7F794200C6C012 /* Frameworks */,
+				03BDA5422B7F794200C6C012 /* Resources */,
+				03350AA52B844269000FE2FE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03350AA02B844269000FE2FE /* PBXTargetDependency */,
+			);
+			name = "Boiling alarm";
+			productName = "Boiling alarm";
+			productReference = 03BDA5442B7F794200C6C012 /* Boiling alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03BDA53C2B7F794200C6C012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					03350A932B844268000FE2FE = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					03BDA5432B7F794200C6C012 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 03BDA53F2B7F794200C6C012 /* Build configuration list for PBXProject "Boiling alarm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03BDA53B2B7F794200C6C012;
+			productRefGroup = 03BDA5452B7F794200C6C012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03BDA5432B7F794200C6C012 /* Boiling alarm */,
+				03350A932B844268000FE2FE /* Boiling Alarm Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03350A922B844268000FE2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03350A9E2B844269000FE2FE /* Preview Assets.xcassets in Resources */,
+				03350AB32B84723E000FE2FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BDA5422B7F794200C6C012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BDA54F2B7F794300C6C012 /* Preview Assets.xcassets in Resources */,
+				03BDA54C2B7F794300C6C012 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03350A902B844268000FE2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03350AAA2B844F0B000FE2FE /* Boiling_alarmApp.swift in Sources */,
+				03350AA92B844B6D000FE2FE /* NotificationView.swift in Sources */,
+				03350AAF2B845117000FE2FE /* ContentView.swift in Sources */,
+				03350AB72B847F32000FE2FE /* WCmodelWatch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BDA5402B7F794200C6C012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BDA54A2B7F794200C6C012 /* ContentView.swift in Sources */,
+				03350AB22B8461F2000FE2FE /* NotificationHandler.swift in Sources */,
+				03BDA5582B7F973F00C6C012 /* RecordingManager.swift in Sources */,
+				03BDA5482B7F794200C6C012 /* Boiling_alarmApp.swift in Sources */,
+				03350AB52B847EE7000FE2FE /* WCmodeliPhone.swift in Sources */,
+				03BDA5562B7F795800C6C012 /* BoilingML.mlmodel in Sources */,
+				03BDA55A2B7FA47200C6C012 /* BoilManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03350AA02B844269000FE2FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03350A932B844268000FE2FE /* Boiling Alarm Watch App */;
+			targetProxy = 03350A9F2B844269000FE2FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03350AA32B844269000FE2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Boiling Alarm Watch App/Boiling Alarm Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Boiling Alarm Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Boiling Alarm";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.Dazabamuker.BoilingAlarm.Boiling-alarm";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dazabamuker.BoilingAlarm.Boiling-alarm.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		03350AA42B844269000FE2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Boiling Alarm Watch App/Boiling Alarm Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Boiling Alarm Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Boiling Alarm";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.Dazabamuker.BoilingAlarm.Boiling-alarm";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dazabamuker.BoilingAlarm.Boiling-alarm.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		03BDA5502B7F794300C6C012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03BDA5512B7F794300C6C012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03BDA5532B7F794300C6C012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Boiling alarm/Boiling alarm.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Boiling alarm/Preview Content\"";
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Boiling-alarm-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need for detection!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dazabamuker.BoilingAlarm.Boiling-alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03BDA5542B7F794300C6C012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Boiling alarm/Boiling alarm.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Boiling alarm/Preview Content\"";
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Boiling-alarm-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need for detection!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dazabamuker.BoilingAlarm.Boiling-alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03350AA22B844269000FE2FE /* Build configuration list for PBXNativeTarget "Boiling Alarm Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03350AA32B844269000FE2FE /* Debug */,
+				03350AA42B844269000FE2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03BDA53F2B7F794200C6C012 /* Build configuration list for PBXProject "Boiling alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BDA5502B7F794300C6C012 /* Debug */,
+				03BDA5512B7F794300C6C012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03BDA5522B7F794300C6C012 /* Build configuration list for PBXNativeTarget "Boiling alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BDA5532B7F794300C6C012 /* Debug */,
+				03BDA5542B7F794300C6C012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03BDA53C2B7F794200C6C012 /* Project object */;
+}
